@@ -1,0 +1,23 @@
+#------------------------------------------------
+# README for char_count: Maintained by Dan Fowler
+# Website: dsfcode.com
+# Version 1.0.0
+#------------------------------------------------
+
+Files:
+	ch_count.py
+
+Discription:
+	- Small command line utility used to count the number of given characters on each line of input
+	- Ex:
+	$ echo testing | ch_count.py -c t
+	2
+	$ echo testing | ch_count.py -c g
+	1
+Usage:
+	usage: ch_count.py [-h] [-c CHAR]
+
+	optional arguments:
+	  -h, --help            show this help message and exit
+	  -c CHAR, --char CHAR  The character that will be counted on each line of input
+
